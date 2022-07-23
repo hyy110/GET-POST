@@ -1,0 +1,11 @@
+.card {
+    width: 200px;
+    height: 100px;
+    margin: 100px 200px;
+    border: 1px solid black;
+}
+
+.card button {
+    float: left;
+    margin: 30px 17px;
+}
