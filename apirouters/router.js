@@ -19,4 +19,11 @@ router.get('/post', (req, res) => {
     })
 })
 
+router.get('/delete', (req, res) => {
+    res.send({
+        status: 0,
+        msg: 'DELETE请求成功!',
+    })
+})
+
 module.exports = router;
