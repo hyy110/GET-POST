@@ -10,7 +10,7 @@ router.get('/get', (req, res) => {
     })
 })
 
-router.get('/post', (req, res) => {
+router.post('/post', (req, res) => {
     const body = req.body;
     res.send({
         status: 0,
@@ -19,7 +19,7 @@ router.get('/post', (req, res) => {
     })
 })
 
-router.get('/delete', (req, res) => {
+router.delete('/delete', (req, res) => {
     res.send({
         status: 0,
         msg: 'DELETE请求成功!',
